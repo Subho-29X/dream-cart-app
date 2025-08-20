@@ -256,7 +256,7 @@ const ItemModal = ({ item, onClose, onSave }) => {
           <X />
         </button>
         <h2 className="text-2xl font-bold text-white mb-6">
-          {item ? "Edit Dream Item" : "Add a New Dream"}
+          {item ? "Edit Dream Item" : "Add a New Dream !!"}
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="space-y-4">
@@ -673,7 +673,7 @@ const LoginPage = () => {
           </button>
         </form>
         <p className="text-center text-sm text-gray-400 mt-6">
-          {isLogin ? "Don't have an account?" : "Already have an account?"}
+          {isLogin ? "Don't have an account???" : "Already have an account?"}
           <button
             onClick={() => setIsLogin(!isLogin)}
             className="font-semibold text-purple-400 hover:text-purple-300 ml-2"
@@ -714,7 +714,7 @@ const AppContent = () => {
                 animation: fade-in 0.5s ease-out forwards;
             }
             .bg-grid-gray-700\\[\\[0\\.2\\]] {
-                background-image: linear-gradient(to right, rgba(107, 114, 128, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(107, 114, 128, 0.1) 1px, transparent 1px);
+                background-image: linear-gradient(to right, rgba(69, 73, 81, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(107, 114, 128, 0.1) 1px, transparent 1px);
                 background-size: 30px 30px;
             }
             .bg-grid-purple-500\\[\\[0\\.05\\]] {
